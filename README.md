@@ -1,12 +1,25 @@
-# FraudDetection
-I couldn't add the CSV file because it exceeded the size limit and was too large
-This project implements and compares two machine learning approaches for credit card fraud detection: Logistic Regression and Isolation Forest. The code utilizes GridSearchCV to tune model parameters for optimal performance in detecting fraudulent transactions.
-Features
+Here’s a rewritten, professional and GitHub-friendly version of your README section:
 
-Analysis of credit card transaction data
-Implementation of Logistic Regression with class weight tuning
-Implementation of Isolation Forest with contamination parameter tuning
-Custom scoring function to balance precision and recall
-Visualization of model performance across different parameter values
+---
 
-The repository demonstrates how to handle highly imbalanced datasets and optimize fraud detection algorithms to minimize both false positives and false negatives, which are critical considerations in financial security applications.
+## Credit Card Fraud Detection
+
+This project implements and compares two machine learning approaches—**Logistic Regression** and **Isolation Forest**—for detecting credit card fraud in highly imbalanced datasets. The goal is to optimize fraud detection by minimizing both false positives and false negatives, which is critical in financial security.
+
+### 🔍 Key Features
+
+* 📊 **Exploratory Data Analysis (EDA):** In-depth analysis of credit card transaction data to understand distribution and identify patterns.
+* 🤖 **Model Implementation:**
+
+  * **Logistic Regression:** Includes class weight tuning to handle class imbalance.
+  * **Isolation Forest:** Leverages the unsupervised nature of anomaly detection with tuned contamination rates.
+* 🔧 **Hyperparameter Optimization:** Utilizes `GridSearchCV` for parameter tuning to improve model precision and recall.
+* 🧮 **Custom Scoring Function:** Balances precision and recall to suit the specific needs of fraud detection.
+* 📈 **Performance Visualization:** Visual comparison of model metrics across different hyperparameter values for interpretability.
+
+### 🚀 Objectives
+
+* Handle severely imbalanced data effectively.
+* Optimize fraud detection algorithms with a strong focus on **precision-recall trade-offs**.
+* Provide a reproducible and extensible baseline for financial anomaly detection projects.
+
