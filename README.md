@@ -1,7 +1,3 @@
-Here’s a rewritten, professional and GitHub-friendly version of your README section:
-
----
-
 ## Credit Card Fraud Detection
 
 This project implements and compares two machine learning approaches—**Logistic Regression** and **Isolation Forest**—for detecting credit card fraud in highly imbalanced datasets. The goal is to optimize fraud detection by minimizing both false positives and false negatives, which is critical in financial security.
